@@ -1,0 +1,139 @@
+/* .logo{
+  display: none;
+}
+.nav{
+  display: flex;
+}
+.nav li{
+  padding: 15px;
+}
+.active{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  background: #fff !important;
+  color:#000 !important;
+}
+#header{
+
+  color:#fff;
+  background: black
+}
+
+@media(max-width:540px){
+  .logo{
+    display: block
+  }
+  .menu{
+    position: fixed;
+    top:0;
+    right:-800px;
+    width: 0;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    right:0;
+    background: black
+  }
+  .nav{
+    flex-direction: column
+  }
+}
+#content{
+  background-color: #000000;
+  background-image: url(http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_02.jpg);
+  background-position: 70% 48%;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  background-size: 640px auto;
+}
+#services{
+  margin-top:40px;
+}
+.item{
+  margin: 10px 0;
+  background: #ddd;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+.icon{
+  right: 20px;
+  top:40%;
+  position: absolute;
+  transition: all .3s ease-in-out;
+
+}
+.leftIcon{
+  transition: all .3s ease-in-out;
+  color:#fff;
+
+  position: absolute;
+  left:-25px;
+  top:15px;
+  font-size: 30px;
+}
+.textp{
+  position: relative;
+  left:0;
+  transition: all .3s ease-in-out;
+
+} */
+body{
+  background-color: #567;
+  padding: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.accordion-container{
+  position: relative;
+  max-width: 500px;
+  height: auto;
+  margin: 10px auto;
+}
+.accordion-container > h2{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.set{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+}
+.set > a{
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+  border-bottom: 1px solid #ddd;
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+}
+.set > a i{
+  float: right;
+  margin-top: 2px;
+}
+.set > a.active{
+  background-color:#3399cc;
+  color: #fff;
+}
+.content{
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display:none;
+}
+.content p{
+  padding: 10px 15px;
+  margin: 0;
+  color: #333;
+}
