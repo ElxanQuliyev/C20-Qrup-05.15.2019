@@ -14,7 +14,7 @@
 <li>
 <p>Aşağıdakı tapşırıqları jQuery ilə daha qısa şəkildə yazın:</p>
 <ul>
-<li>Tabs(Tabs menu jquery axtarış verib numünulere baxa bilersiz)</li>
+<li>Tabs(Tabs menu jquery axtarış verib nümunələrə baxa bilersiz)</li>
 <li>Chat (əlavə olaraq yazılan mesajların üzərinə click elədikdə mesaj seçilsin və yuxarıda silmək işarəsi görsənsin və həmin işarəyə click edildikdə seçilən mesajlar silinsin)</li>
 </ul>
 </li>
